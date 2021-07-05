@@ -6,3 +6,55 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+/* Reusable Class */
+
+.half-width {
+  width: 50%;
+  padding-left: 10%;
+}
+.half-width p {
+  width: 70%;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+.half-width img {
+  width: 70%;
+  height: auto;
+}
+.hero-item {
+  padding-top: 250px;
+}
+.hero-heading {
+  padding-top: 100px;
+  font-size: 60px;
+  font-weight: 900;
+}
+.orange-text {
+  color: orange;
+}
+.btn-style {
+  padding: 5px;
+  text-decoration: none;
+  padding: 20px 35px;
+  background-image: linear-gradient(to right, orange, tomato);
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0px 0px 12px orange;
+}
+.flexible-container {
+  display: flex;
+}
+/* General style */
+
+.hero-area {
+  height: 100vh;
+  background-image: url(./images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
