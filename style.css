@@ -37,11 +37,13 @@ body {
   color: #707070;
 }
 
-.half-width h1 {
+/* Little bit of refactoring code here  */
+#hero-heading {
   padding-top: 100px;
   font-size: 60px;
   font-weight: 900;
 }
+
 .orange-text {
   color: orange;
 }
@@ -55,6 +57,9 @@ body {
   font-weight: 600;
   box-shadow: 0px 0px 12px orange;
 }
+.btn-style:hover {
+  background-image: linear-gradient(to right, tomato, orange);
+}
 .flexible-container {
   display: flex;
 }
@@ -67,9 +72,7 @@ body {
   background-position: center center;
   background-size: cover;
 }
-.hero-item {
-  /* padding-top: 150px; */
-}
+
 .about-me {
   background-image: url(./images/aboutme-bg.png);
   background-repeat: no-repeat;
@@ -77,20 +80,19 @@ body {
   height: auto;
 }
 /* recipie section */
-.recipie-section {
-}
-.recipie-heading {
+
+.secondary-heading {
   width: 700px;
   margin: 0 auto;
 }
-.recipie-heading h2 {
+.secondary-heading h2 {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
   padding-top: 80px;
   color: #707070;
 }
-.recipie-heading p {
+.secondary-heading p {
   font-size: 20px;
   margin-top: 20px;
   font-weight: 300;
@@ -108,7 +110,7 @@ body {
   margin: 5%;
   padding: 1%;
   border-radius: 30px;
-  /* box-shadow: 0px 0px 4px 1px lightgray; */
+
   box-shadow: 0px 0px 12px 2px lightgrey;
 }
 
@@ -239,3 +241,5 @@ footer ul li a {
 .nav-container {
   display: flex;
 }
+
+/* finished project  */
