@@ -125,3 +125,21 @@ body {
   margin-bottom: 20px;
   line-height: 32px;
 }
+
+/* Testimonials  */
+.testimonial-item img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.testimonial-item h3 {
+  padding-top: 50px;
+}
+#testimonial-img {
+  background-image: url(./images/testimonials-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+}
